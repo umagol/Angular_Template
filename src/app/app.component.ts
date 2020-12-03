@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewContainerRef, ComponentFactoryResolver } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  constructor(
+    private ViewContref: ViewContainerRef,
+    private ComponentFactRes: ComponentFactoryResolver
+    ){}
+
+  // Lazy Loading Component
+  // async loadaboutme(){
+  //   this.ViewContref.clear();
+  //   const {AboutMeComponent} = await import('./layout/about-me/about-me.component')
+  //   this.ViewContref.createComponent(
+  //     this.ComponentFactRes.resolveComponentFactory(AboutMeComponent)
+  //   )
+  // }
 }

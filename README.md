@@ -28,10 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-
-
-<--------------------------------------------------------------------------------------------->
-Installation :-
+## Installation :-
     - Bootstrap V-4.5.3
     - JQuery
     - Popper Js
@@ -40,9 +37,8 @@ Installation :-
 
 
 
-<--------------------------------------------------------------------------------------------->
 
-Folder Structure :-
+## Folder Structure :-
 
     - core - In the core folder we have 4 sub folder (model, services, interseptor, databus etc)
 

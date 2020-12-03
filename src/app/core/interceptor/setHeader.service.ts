@@ -13,7 +13,7 @@ export class SetheaderService implements HttpInterceptor {
     const tokenizedReq = req.clone(
       {
           setHeaders: {
-            Authorization: 'Bearer ' + this.token.gettoken()
+            Authorization: 'Bearer ' + this.token.gettoken("")
           }
       }
     );
