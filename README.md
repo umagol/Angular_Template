@@ -13,21 +13,21 @@ then code is ready for use ...
 
 ## Folder Structure :-
 
-- In project there are two main folder first is core and second is Layout. In core folder there are many sub folder link model , services etc in core folder we are weite core functionality of project and In layout folder all about UI and Client related logics. 
+- In project there are two main folder first is core and second is Layout. In core folder there are many sub folder like model , services etc. In core folder we are write core functionality of project and layout folder are use to define User Interface or User Component. 
 
 # core - 
 
-- model: model is using for access data from get by in API
+- Model: Model is using for accessing data from API
 
-- services: In services folder we have auth services for authentication etc, token services,user services , admin services  etc..
+- Services: In services folder we have auth services for authentication etc, token services,user services , admin services  etc..
 
-- interceptor: In folder we are look setheader.services for using a set access token and send token in backend for check auth. and also using for notification, loder etc.... 
+- Interceptor: In folder we are look setheader.services for using a set access token and send token in backend for check auth. and also using for notification, loder etc.... 
 
-- databus: databus folder are use to create a services for pass data one component to another component etc...
+- Databus(Shared Services): In databus folder are use to create a services for pass data one component to another component etc...
 
 # Layout:
 
-- Home component 
+- Home component (UserInterface) 
 
 
 ## Downloaded Package 
@@ -38,4 +38,3 @@ then code is ready for use ...
 - Font Awesome
 - ngx-cookie-service
 - @auth0/angular-jwt
-- 
