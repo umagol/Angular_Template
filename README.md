@@ -3,7 +3,7 @@
 # Clone git repository from github 
 - git clone https://github.com/umagol/Angular_Template.git
 
-# Install npm on your Pc
+# Install node and npm on your Pc
 - npm install
 
 then code is ready for use ...
